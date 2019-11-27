@@ -13,14 +13,14 @@ export default class Home extends Component {
 		return(
 			<View style={styles.container}>
 				<StatusBar
-		           backgroundColor="#1A237E"
-		           barStyle="light-content"
-		        />
+                  backgroundColor="#1A237E"
+                  barStyle="light-content"
+                 />
 
 				<Text style={styles.title}>Home</Text>
 				<Image
-					style={styles.image}
-					source={require('./img/mypic.jpg')}
+                    style={styles.image}
+                    source={require('./img/mypic.jpg')}
 				/>
 				<Text 
 				style={{alignSelf:'center', fontSize: 26, color: '#000', paddingTop:10}}>
